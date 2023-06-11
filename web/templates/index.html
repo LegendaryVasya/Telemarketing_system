@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="{{ url_for('static', filename = 'main.css') }}" rel="stylesheet">
+</head>
+<body class="text-center">
+    <main class="form-signin w-100 m-auto">
+        <g>
+            <svg x="0" y="0" width="100" height="100" filtersec="colorsb7499298170" class="image-svg-svg primary" style="overflow: visible;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.0005917400121688843 -0.0031671524047851562 87.97720336914062 92.12628173828125">
+                    <path d="M6.46 69.53c3.17 2.5 6.37 4.94 10.19 6.36 13.43 5 26 3.14 37.2-5.58A22.62 22.62 0 0 0 62.52 52c.09-15.33 0-30.65 0-46 0-3.81.25-4.16 4-3.33C79 5.47 87.64 14.76 87.88 27.38c.17 8.26.08 16.53 0 24.79a39.38 39.38 0 0 1-31.35 38.47c-10.38 2.29-20.47 2.18-30.31-2.12a44.12 44.12 0 0 1-20-17.6A3.08 3.08 0 0 1 6 70z" fill="#0bf"></path>
+                    <path d="M0 23.1V3.46C0 .3.65-.42 3.62.2c12.16 2.55 21.27 11 21.7 24.33.25 7.74.11 15.5 0 23.26-.08 6.65 2.25 12 7.7 16 2 1.44 1.88 2.15-.37 3.16-7.94 3.54-20.48.89-26.83-7.16C1.79 54.67.3 48.77.1 42.48-.1 36 .06 29.56.06 23.1z" fill="#5592ff"></path>
+                </svg>
+              </svg>
+          </g>
+      <form action="" method="post">
+        <h1 class="h3 mb-3 fw-normal">Вход в личный кабинет</h1>
+
+        <div class="form-floating">
+          <input name ='nm' type="text" class="form-control" id="floatingInput" placeholder="Login">
+          <label for="floatingInput">Логин</label>
+        </div>
+        <div class="form-floating">
+          <input name = 'ps' type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Пароль</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input name= remember type="checkbox" value="remember-me"> Запомнить меня
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Войти</button>
+        <p class="mt-5 mb-3 text-body-secondary">© Union Bank 2023</p>
+      </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/style.css')}}"
+    />
+
+  </head>
+<body>
+{% block content %}
+<form method="post" class="buttons">
+  <h3>Укажите номер комнаты</h3>
+  <div class="join">
+    <input type="text" placeholder="Room Code" name="code" value="{{code}}" />
+    <button type="submit" name="join">Присоединиться к комнате</button>
+  </div>
+  {% if error %}
+  <ul>
+    <li>{{error}}</li>
+  </ul>
+  {% endif %}
+</form>
+    <p> Доступные комнаты: </p>
+    <div>
+    {% for i in range(0,items_len) %}
+          {% if items_[i]["room"] != None %}
+        <p> Room:{{ items_[i]["room"] }}  by  {{ items_[i]["login"] }}  </p>
+          {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}
+<div><a href="{{ url_for('logout') }}">Выйти</a></div>
+  </body>
+</html>
