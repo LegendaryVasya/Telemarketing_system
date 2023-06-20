@@ -24,5 +24,6 @@
 ### Демонстрация работы разлинчых функций ИС
 
 ![fail_log](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/123e0383-9240-489d-bc2f-6d1ca7cc4106)
+
 *Демонстрация провальной авторизации*
 
