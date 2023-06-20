@@ -82,7 +82,8 @@ class ItemDatabase:
 
     def put_bill(self, ammount, date, detail,number):
         # query = f"update Bills set Date = '{date}', Amount = '{ammount}', Sent_to = '{number}'  where Number = '{detail}'"
-        query = f"exec [WebTest].[dbo].[add_bill] @Date_ = '{date}', @Amount_ = '{ammount}', @Number_= '{detail}', @Sent_to_ = '{number}'"
+        # query = f"exec [WebTest].[dbo].[add_bill] @Date_ = '{date}', @Amount_ = '{ammount}', @Number_= '{detail}', @Sent_to_ = '{number}'"
+        query = f"exec [Telemarketing_Center_DB].[dbo].[add_bill] @Date_ = '{date}', @Amount_ = '{ammount}', @Number_= '{detail}', @Sent_to_ = '{number}'"
         self.cursor.execute(query)
         self.conn.commit()
 
