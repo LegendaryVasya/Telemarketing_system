@@ -27,20 +27,21 @@
 
 ### Функционал web
 
-![fail_log](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/123e0383-9240-489d-bc2f-6d1ca7cc4106)
-
-*Демонстрация провальной авторизации*
-
-
-![true_log](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/d2bc678b-be42-4215-b0ee-8031f73f9f78)
-
-*Демонстрация успешной авторизации*
+| ![fail_log](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/123e0383-9240-489d-bc2f-6d1ca7cc4106) |
+|:--:| 
+| *Демонстрация провальной авторизации* |
 
 
-![live_chat](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/89ed5a01-326f-4fd5-98cc-bbcf38011835)
 
-*Демонстрация live-чата*
+| ![true_log](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/d2bc678b-be42-4215-b0ee-8031f73f9f78) |
+|:--:|
+| *Демонстрация успешной авторизации* |
 
-![make_pay](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/ef0a942f-f3f1-4f41-8664-52d576c67b47)
 
-*Демонстрация совершения платежа*
+| ![live_chat](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/89ed5a01-326f-4fd5-98cc-bbcf38011835) |
+|:--:| 
+| *Демонстрация live-чата* |
+
+| ![make_pay](https://github.com/LegendaryVasya/Telemarketing_system/assets/46849169/ef0a942f-f3f1-4f41-8664-52d576c67b47) |
+|:--:|
+| *Демонстрация совершения платежа* |
