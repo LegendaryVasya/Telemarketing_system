@@ -125,10 +125,10 @@
 | [![Survays](https://img.youtube.com/vi/rv8fs02tihU/maxresdefault.jpg)](https://www.youtube.com/watch?v=rv8fs02tihU) |
 |:--:|
 | *Демонстрация работы с опросами* 
-  *Чтобы посмотреть нажми на изображение*|
+  Чтобы посмотреть нажми на изображение|
 
 
 | [![News](https://img.youtube.com/vi/DyOgZ7HSzc0/maxresdefault.jpg)](https://www.youtube.com/watch?v=DyOgZ7HSzc0) |
 |:--:|
 | *Демонстрация работы с новостями* 
-  *Чтобы посмотреть нажми на изображение*|
+  Чтобы посмотреть нажми на изображение|
